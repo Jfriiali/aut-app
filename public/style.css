@@ -1,0 +1,132 @@
+/* Resetting defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f1f5f8;  /* رنگ روشن و ملایم */
+  color: #333;  /* رنگ متن تیره و راحت برای خواندن */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #4a90e2;  /* رنگ آبی زیبا */
+  margin-bottom: 20px;
+}
+
+/* فرم لاگین */
+form {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 40px 30px;
+  width: 100%;
+  max-width: 450px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);  /* سایه ملایم */
+  transition: all 0.3s ease;
+}
+
+form:hover {
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.1);  /* افزایش سایه در زمان هاور */
+}
+
+form h2 {
+  margin-bottom: 20px;
+  font-size: 1.7rem;
+  color: #333;
+  text-align: center;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 15px 0;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background-color: #f9fafb;
+  color: #555;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+  border-color: #4a90e2;  /* تغییر رنگ در زمان فوکوس */
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4a90e2;  /* رنگ آبی جذاب */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #357abd;  /* رنگ تیره‌تر در زمان هاور */
+}
+
+#error-message {
+  color: #e74c3c;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* برای صفحه داشبورد */
+.dashboard-container {
+  background-color: #ffffff;
+  padding: 40px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 20px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-container h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.dashboard-container p {
+  color: #777;
+  margin-bottom: 30px;
+  font-size: 1rem;
+}
+
+.logout-btn {
+  padding: 12px 25px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #c0392b;
+}
