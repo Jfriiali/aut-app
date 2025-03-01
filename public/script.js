@@ -16,7 +16,7 @@ document.getElementById("login-form")?.addEventListener("submit", async (event) 
 
   if (data.token) {
       localStorage.setItem("token", data.token);
-      window.location.href = "dashboard.html"; // Redirect to dashboard
+      window.location.href = "dashboard.html"; 
   } else {
       document.getElementById("error-message").classList.remove("hidden");
   }
@@ -24,13 +24,13 @@ document.getElementById("login-form")?.addEventListener("submit", async (event) 
 
 function logout() {
   localStorage.removeItem("token");
-  window.location.href = "login.html"; // Redirect to login
+  window.location.href = "login.html"; 
 }
 
 // For the dashboard page
 if (document.body.classList.contains('dashboard')) {
   const token = localStorage.getItem("token");
   if (!token) {
-      window.location.href = "login.html"; // Redirect to login if not authenticated
+      window.location.href = "login.html"; 
   }
 }
