@@ -7,8 +7,8 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f1f5f8;  /* رنگ روشن و ملایم */
-  color: #333;  /* رنگ متن تیره و راحت برای خواندن */
+  background-color: #f1f5f8;  
+  color: #333;  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,23 +20,23 @@ body {
 h1 {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #4a90e2;  /* رنگ آبی زیبا */
+  color: #4a90e2;  
   margin-bottom: 20px;
 }
 
-/* فرم لاگین */
+
 form {
   background-color: #ffffff;
   border-radius: 20px;
   padding: 40px 30px;
   width: 100%;
   max-width: 450px;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);  /* سایه ملایم */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);  
   transition: all 0.3s ease;
 }
 
 form:hover {
-  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.1);  /* افزایش سایه در زمان هاور */
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.1);  
 }
 
 form h2 {
@@ -59,14 +59,14 @@ input[type="text"], input[type="password"] {
 }
 
 input[type="text"]:focus, input[type="password"]:focus {
-  border-color: #4a90e2;  /* تغییر رنگ در زمان فوکوس */
+  border-color: #4a90e2;  
   outline: none;
 }
 
 button {
   width: 100%;
   padding: 12px;
-  background-color: #4a90e2;  /* رنگ آبی جذاب */
+  background-color: #4a90e2; 
   color: white;
   border: none;
   border-radius: 10px;
@@ -76,7 +76,7 @@ button {
 }
 
 button:hover {
-  background-color: #357abd;  /* رنگ تیره‌تر در زمان هاور */
+  background-color: #357abd;  
 }
 
 #error-message {
@@ -94,7 +94,7 @@ footer {
   color: #555;
 }
 
-/* برای صفحه داشبورد */
+
 .dashboard-container {
   background-color: #ffffff;
   padding: 40px;
